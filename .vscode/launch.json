@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-DrishticonnectApplication<drishticonnect>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.drishti.drishticonnect.DrishticonnectApplication",
+            "projectName": "drishticonnect",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-UrlApplication<url>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.api.url.UrlApplication",
+            "projectName": "url",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
